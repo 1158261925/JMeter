@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="6900" it="585" lt="0" ct="0" ts="1540648164026" s="true" lb="博客登录接口" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="第一线程组 1-1" dt="" by="19935" sby="146" ng="1" na="1">
+  <httpSample t="6900" it="0" lt="6306" ct="5612" ts="1540648164577" s="true" lb="博客登录HTTP请求" rc="200" rm="OK" tn="第一线程组 1-1" dt="text" by="19935" sby="146" ng="1" na="1">
+    <assertionResult>
+      <name>响应断言</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://www.cnblogs.com/testlurunxiu/p/5987949.html</java.net.URL>
+  </httpSample>
+</sample>
+
+<sample t="12588" it="447" lt="0" ct="0" ts="1540648179308" s="false" lb="淘宝登录接口" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="第三线程组 1-1" dt="" by="146494" sby="118" ng="1" na="1">
+  <httpSample t="12588" it="0" lt="5118" ct="4929" ts="1540648179723" s="false" lb="淘宝HTTP请求" rc="200" rm="OK" tn="第三线程组 1-1" dt="text" by="146494" sby="118" ng="1" na="1">
+    <assertionResult>
+      <name>响应断言</name>
+      <failure>true</failure>
+      <error>false</error>
+      <failureMessage>Test failed: text expected to contain /淘宝网 - 淘！我不喜欢/</failureMessage>
+    </assertionResult>
+    <java.net.URL>https://www.taobao.com/</java.net.URL>
+  </httpSample>
+</sample>
+
+<sample t="3907" it="375" lt="0" ct="0" ts="1540648200711" s="true" lb="百度登录接口" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="第二线程组 1-1" dt="" by="2843" sby="117" ng="1" na="1">
+  <httpSample t="3907" it="0" lt="3889" ct="3807" ts="1540648201041" s="true" lb="百度HTTP请求" rc="200" rm="OK" tn="第二线程组 1-1" dt="text" by="2843" sby="117" ng="1" na="1">
+    <assertionResult>
+      <name>响应断言</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://www.baidu.com/</java.net.URL>
+  </httpSample>
+</sample>
+
+</testResults>
